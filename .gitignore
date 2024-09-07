@@ -26,4 +26,8 @@ __pycache__/
 *.sln
 *.sw?
 public/*
-media/photos/2024
+!public/
+media/photos/2024/*
+!media/photos/2024/
+media/*
+!media/
