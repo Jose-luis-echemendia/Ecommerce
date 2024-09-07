@@ -26,3 +26,4 @@ __pycache__/
 *.sln
 *.sw?
 public/*
+media/*
