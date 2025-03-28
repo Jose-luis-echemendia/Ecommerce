@@ -76,7 +76,7 @@ export const Routers = () => {
             element={
               <ProtectedRoute
                 redirectTo="/login/"
-                isAllowed={!!stateAuth.user && stateAuth.isAuthenticated}
+                isAllowed={!!stateAuth.userId && stateAuth.isAuthenticated}
               />
             }
           >
