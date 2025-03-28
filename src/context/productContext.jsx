@@ -30,6 +30,7 @@ function useProductContext() {
     const config = {
       headers: {
         Accept: "application/json",
+        "Content-type": 'application/json',
       },
     };
 
@@ -38,7 +39,7 @@ function useProductContext() {
         `${import.meta.env.VITE_REACT_APP_API_URL}/api/product/get-products`,
         config
       );
-
+      
       if (res.status === 200) {
         dispatch({
           type: GET_PRODUCTS_SUCCESS,
@@ -62,6 +63,7 @@ function useProductContext() {
     const config = {
       headers: {
         Accept: "application/json",
+        "Content-type": 'application/json',
       },
     };
 
@@ -96,6 +98,7 @@ function useProductContext() {
     const config = {
       headers: {
         Accept: "application/json",
+        "Content-type": 'application/json',
       },
     };
 
@@ -130,6 +133,7 @@ function useProductContext() {
     const config = {
       headers: {
         Accept: "application/json",
+        "Content-type": 'application/json',
       },
     };
 
@@ -164,6 +168,7 @@ function useProductContext() {
     const config = {
       headers: {
         Accept: "application/json",
+        "Content-type": 'application/json',
       },
     };
 
@@ -198,6 +203,7 @@ function useProductContext() {
     const config = {
       headers: {
         Accept: "application/json",
+        "Content-type": 'application/json',
       },
     };
 
